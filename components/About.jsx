@@ -12,10 +12,26 @@ export default function About() {
     flex flex-col md:flex-row-reverse justify-end items-center gap-10
     `}
       >
+
         <div
+          className={`img w-[250px] h-[250px] md:w-[300px] md:h-[300px] relative overflow-hidden 
+             rounded-full   flex justify-center items-center shrink-0
+            bg-white border-6 border-black/85 
+             `}
+        >
+          <Image
+            src="/arab.png"
+            alt="my pic"
+            width={300}
+            height={300}
+           className="border-black border-2 "
+          />
+    
+        </div>
+        {/* <div
           className={`img w-[250px] h-[250px] md:w-[300px] md:h-[250px] relative overflow-hidden 
              rounded-full bg-center shrink-0
-            
+            bg-amber-400
              `}
         >
           <Image
@@ -26,7 +42,7 @@ export default function About() {
             className={`object-contain`}
           />
     
-        </div>
+        </div> */}
         <div className="summry">
           <h1 className="font-bold text-2xl">
             
