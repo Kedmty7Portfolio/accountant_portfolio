@@ -13,7 +13,7 @@ export default function Skills() {
     `}>
       <div className="tec skills">
         <span className="block text-center text-xl font-semibold my-7 mx-auto p-1 w-[250px] bg-gray-200/70"> المهارات التقنية </span>
-        <ul className="flex items-center gap-3 flex-wrap">
+        <ul className="flex justify-center items-center gap-3 flex-wrap">
          {tecSkills.map((t,idx)=>(
           <li className={`sub-font-size even:bg-violet-100 odd:bg-cyan-100
             rounded-md p-1`} key={idx}>{t}</li>
@@ -22,7 +22,7 @@ export default function Skills() {
       </div>
       <div className="soft skills">
         <span className="block text-center text-xl font-semibold my-7 mx-auto p-1 w-[250px] bg-gray-200/70"> المهارات الناعمة </span>
-        <ul className="flex items-center gap-3 flex-wrap">
+        <ul className="flex justify-center items-center gap-3 flex-wrap">
           {softSkills.map((s,idx)=>(
           <li className={`sub-font-size even:bg-violet-100 odd:bg-cyan-100
             rounded-md p-1`} key={idx}>{s}</li>
