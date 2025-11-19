@@ -2,14 +2,14 @@ import Image from "next/image";
 export default function About() {
   return (
     <div
-      className={`w-full  my-4 rounded-lg p-[var(--main-padding)]
+      className={`w-full  my-4 rounded-lg p-(--main-padding)
       bg-[url('/statbg.webp')] bg-cover bg-no-repeat brightness-85
      
     `}
     >
       <div
         className={`
-    flex flex-col md:flex-row-reverse items-center gap-10
+    flex flex-col md:flex-row-reverse justify-end items-center gap-10
     `}
       >
         <div
@@ -30,11 +30,11 @@ export default function About() {
         <div className="summry">
           <h1 className="font-bold text-2xl">
             
-            أنا عبدالله القحطاني <span className="text-[#feb429]">محاسب</span>{" "}
+            أنا عبدالله القحطاني <span className="text-[#feb429] leading-16">محاسب</span>{" "}
           </h1>
           <p
             className={`w-full lg:w-[600px] 
-            text-lg
+            text-lg leading-10
             `}
           >   مرخّص من هيئة المحاسبين القانونيين
             السعودية (SOCPA)، أمتلك خبرة تتجاوز 10 سنوات في مجال المحاسبة
