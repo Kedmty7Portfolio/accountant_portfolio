@@ -25,7 +25,7 @@ const changa = Changa({
 export const metadata = {
   title: "Personal Portfolio",
   description: "Personal Client Portfolio",
-  icons: [{ rel: "icon", url: "icon.svg", sizes: "180x180" }],
+  icons: [{ rel: "icon", url: "icon.ico" }],
 };
 
 export default function RootLayout({ children }) {
