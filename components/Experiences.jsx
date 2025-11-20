@@ -8,7 +8,7 @@ export default function Experiences() {
     Experiences_data.map((e)=>(
           <div className={`exp bg-gray-100/90 p-2 flex flex-col gap-3`} key={e.id}>
          <span className={`main-font-size font-semibold`}> {e.job_title}</span>
-      <span className={`flex items-center gap-10 max-sm:flex-col`}>
+      <span className={`flex items-center gap-10 max-sm:flex-col max-sm:gap-3`}>
         <span className={`sub-font-size`}> {e.comp_name}</span>
         <span className={`flex items-center gap-3`}>
           <span className={`sub-font-size`}>{e.stDate}</span>
